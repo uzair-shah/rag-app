@@ -1,6 +1,6 @@
-# Juggling Paper RAG
+# RAG Application
 
-A small retrieval-augmented generation (RAG) app that answers questions about a single PDF, Warrington's *Juggling Probabilities* (2005), and checks how well two LLMs do it.
+A small retrieval-augmented generation (RAG) app that answers questions about a single PDF. In this case, the pdf is Warrington's *Juggling Probabilities* (2005), and validates whether the answers are correctly extracted and in how long. 
 
 ## How it works
 
