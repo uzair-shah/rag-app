@@ -202,19 +202,11 @@ with open('test_queries.txt', 'r', encoding='utf-8') as f:
     test_queries = json.load(f)
 
 client = genai.Client()  #loading gemini 
-eval_results_gemini = run_eval(test_queries, chunk_embs, model, client)
-eval_results_deepseek = run_eval(test_queries, chunk_embs, model, client, agent = 'deep_seek')
+eval_results_gemini = run_eval(test_queries, collection, model, client)
+eval_results_deepseek = run_eval(test_queries, collection, model, client, agent = 'deep_seek')
 print_summary(eval_results_deepseek)
 
-# while True:
-#     q = input("\nAsk a question (or 'quit'): ").strip()
-#     if q.lower() == "quit":
-#         break
-#     if not q:
-#         continue
-#     results = search(q, chunk_embs, model, k=5)
-#     answer = ask_llm_gemini(q, results,client)
-#     print("\n" + answer)
+
 
 
 

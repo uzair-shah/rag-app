@@ -153,17 +153,6 @@ async def ask_question(question: Question):
     
     return Answer(answer = response)
 
-#initialising 
-# file_name = "Warrington-JugglingProbabilities-2005.pdf"
-# text = pdf_to_text(file_name)
-# cleaned_text = clean_text(text)
-# collection = embed_chunks(chunk_text(cleaned_text, 800, 100),model)
-# question = 'what is a juggling process?'
-# results = search(question, collection, model)
-
-# client = genai.Client()  #loading gemini 
-# response = ask_llm_gemini(question,results, client)
-# print(response)
 
 
 
