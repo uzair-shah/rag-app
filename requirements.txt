@@ -1,5 +1,6 @@
 pypdf
 sentence-transformers
+chromadb
 numpy
 google-genai
 python-dotenv
@@ -7,5 +8,4 @@ ollama
 ipykernel
 fastapi
 uvicorn
-fastapi
 pydantic

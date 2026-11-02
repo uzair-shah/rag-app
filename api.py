@@ -133,8 +133,8 @@ class Question(BaseModel):
     question: str
 
 class Answer(BaseModel):
-    answer: str 
-    source: list[str]
+    answer: str
+    sources: list[str]
 
 file_name = "Warrington-JugglingProbabilities-2005.pdf"
 text = pdf_to_text(file_name)
